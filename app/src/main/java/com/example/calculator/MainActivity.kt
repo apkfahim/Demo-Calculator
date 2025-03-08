@@ -43,6 +43,9 @@ class MainActivity : AppCompatActivity() {
         binding.buttonAddition.setOnClickListener { binding.input.text = addToInputText("+") }
 
 
+
+        // Demo Error handling
+
         // Equals Button
         binding.buttonEquals.setOnClickListener { showResult() }
     }
